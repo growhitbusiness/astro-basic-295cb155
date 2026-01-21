@@ -1,0 +1,36 @@
+---
+const title = 'website';
+const tone = 'простой, чистый';
+---
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+    <style>
+      body { font-family: system-ui, sans-serif; line-height: 1.6; margin: 0; padding: 20px; }
+      .hero { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 12px; margin-bottom: 40px; }
+      .hero h1 { margin: 0; font-size: 2.5em; }
+      .about { padding: 40px 20px; background: #f8f9fa; border-radius: 8px; margin-bottom: 40px; }
+      .features { padding: 40px 20px; background: #e9ecef; border-radius: 8px; margin-bottom: 40px; }
+      .features ul { list-style: none; padding: 0; }
+      .features li { padding: 10px 0; border-bottom: 1px solid #dee2e6; }
+      .gallery { padding: 40px 20px; background: #d1ecf1; border-radius: 8px; margin-bottom: 40px; }
+      .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+      .gallery-item { background: white; padding: 20px; border-radius: 8px; text-align: center; }
+      .cta { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; border-radius: 12px; }
+      .cta h2 { margin: 0; font-size: 2em; }
+    </style>
+  </head>
+  <body>
+<section class="hero">
+  <h1>Сайт</h1>
+</section>
+<section class="about">
+  <p>Создай футуристичный сайт на тему дачи</p>
+</section>
+<section class="cta">
+  <h2>Свяжитесь с нами</h2>
+</section>
+  </body>
+</html>
